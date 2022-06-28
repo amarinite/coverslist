@@ -225,6 +225,10 @@ h1 {
   .song-list {
     grid-template-columns: min-content;
   }
+
+  .song-info i {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 530px) {
@@ -239,5 +243,23 @@ h1 {
 
   header img {
     width: 13rem;
+  }
+}
+
+@media (max-width: 530px) {
+  header img {
+    width: 10rem;
+  }
+
+  .artist-info {
+    margin-left: 1rem;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .song-item img {
+    width: 20rem;
   }
 }
